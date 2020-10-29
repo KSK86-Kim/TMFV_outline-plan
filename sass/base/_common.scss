@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: $primary-white-color;
+  background-color: #292d3e;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+}
+
+.subject {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.556;
+  letter-spacing: 0.03em;
+}
+
+.bro {
+  border: 1px solid orange;
+}
+
+.brg {
+  border: 1px solid green;
+}
+
+.active {
+  color: $accent-color_2;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
+}

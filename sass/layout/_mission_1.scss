@@ -1,0 +1,21 @@
+.mission {
+   &__container {
+      border: 1px dashed green;
+      border-radius: 5px;
+      box-shadow: 0px 1px 1px rgba(0,0,0,0.12), 0px 4px 4px rgba(0,0,0,0.06), 1px 4px 6px rgba(0,0,0,0.16);
+   }
+
+   &__title {
+      margin-bottom: 30px;
+   }
+
+   &__subject {
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+   
+   &__description {
+      margin: 0 auto;
+      width: 95%;
+   }
+}

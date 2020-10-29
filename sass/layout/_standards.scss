@@ -1,0 +1,21 @@
+.standards {
+   &__subject {
+
+   }
+   &__table {
+      border: 1px solid #797474;
+
+      & td {
+         border: 1px solid #797474;
+         padding: 7px;
+      }
+   }
+   
+   &__cell {
+      padding: 10px;
+   }
+
+   &__subject {
+      margin-bottom: 30px;
+   }
+}

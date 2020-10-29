@@ -1,0 +1,19 @@
+.briefing {
+   &__title {
+      margin-bottom: 44px;
+   }
+   &__subject {
+      margin-bottom: 15px;
+   }
+   &__list {
+      margin-left: 50px;
+      margin-bottom: 50px;
+   }
+   &__item {
+      &:not(:last-child) {
+         margin-bottom: 15px;
+      }
+   }
+}
+
+

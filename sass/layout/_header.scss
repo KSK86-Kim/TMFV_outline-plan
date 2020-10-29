@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(102, 9, 209);
+    background-image: linear-gradient( to right, rgba(224, 191, 2, 0.4), rgba(0, 126, 175, 0.5) );
+    border-bottom: 1px solid #eeeeee;
+    
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        display: flex;
+    }
+
+    &__address {
+        display: flex;
+    }
+
+    &__logo {
+        margin-right: 150px;
+    }
+    
+}
+
